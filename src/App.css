@@ -1,0 +1,65 @@
+/*  How to styling css in react */
+
+/* 1. file styling in react using className example.
+
+.test{
+    color:red;
+    background-color:blue;
+}
+    
+function How(){
+    return <h4 className='test'>How are you Bilal</h4>
+} */
+
+/* 2. Inline styling in react example.
+
+const name = "Bilal"
+    return <h1 style={{color:"pink"}}> {name} you are goin to Khandwa</h1>
+} */
+
+
+/* 3. Object type styling in react example.
+
+function Csspractice(){
+    const name = "Khan Bilal"
+    const headingStyle = {
+        color:"yellow",
+        textAlign:"center",
+    }
+    return <h2 style={headingStyle}>Hello {name}</h2>
+} */
+
+/* short form to craet a component -> rfce */
+
+
+.test{
+  color:yellow;
+}
+
+.Design{
+  background-color: azure;
+  color: black;
+  text-align: center;
+}
+
+.why{
+  background-color:pink ;
+  color: black;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.creat{
+    width: 100px;
+    height: 100px;
+}
+
+.visible {
+    display: block;
+}
+
+.unvisible {
+    display: none;
+}
+
+  
